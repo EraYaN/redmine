@@ -85,7 +85,7 @@ group :development do
 end
 
 group :thin do
-  gem "thin", "1.6"
+  gem 'thin',  '~>1.6'
 end
 
 group :test do
