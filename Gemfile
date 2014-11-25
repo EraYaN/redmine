@@ -84,6 +84,10 @@ group :development do
   gem "yard"
 end
 
+group :thin do
+gem 'thin', '~>1.6'
+end
+
 group :test do
   gem "shoulda", "~> 3.3.2"
   gem "shoulda-matchers", "1.4.1"
