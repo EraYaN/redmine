@@ -84,6 +84,10 @@ group :development do
   gem "yard"
 end
 
+group :thin do
+  gem "thin", "1.6"
+end
+
 group :test do
   gem "minitest"
   gem "shoulda-context"
